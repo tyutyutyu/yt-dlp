@@ -652,15 +652,15 @@ class PornHubPagedVideoListIE(PornHubPagedPlaylistBaseIE):
         'url': 'http://www.pornhub.com/users/rushandlia/videos',
         'only_matching': True,
     }, {
-        'url': 'https://www.pornhub.com/pornstar/jenny-blighe/videos',
+        'url': 'https://www.pornhub.com/pornstar/kali-roses/videos',
         'info_dict': {
-            'id': 'pornstar/jenny-blighe/videos',
+            'id': 'pornstar/kali-roses/videos',
         },
         'playlist_mincount': 149,
     }, {
-        'url': 'https://www.pornhub.com/pornstar/jenny-blighe/videos?page=3',
+        'url': 'https://www.pornhub.com/pornstar/kali-roses/videos?page=3',
         'info_dict': {
-            'id': 'pornstar/jenny-blighe/videos',
+            'id': 'pornstar/kali-roses/videos',
         },
         'playlist_mincount': 40,
     }, {
@@ -752,16 +752,16 @@ class PornHubPagedVideoListIE(PornHubPagedPlaylistBaseIE):
 class PornHubUserVideosUploadIE(PornHubPagedPlaylistBaseIE):
     _VALID_URL = rf'(?P<url>https?://(?:[^/]+\.)?{PornHubBaseIE._PORNHUB_HOST_RE}/(?:(?:user|channel)s|model|pornstar)/(?P<id>[^/]+)/videos/upload)'
     _TESTS = [{
-        'url': 'https://www.pornhub.com/pornstar/jenny-blighe/videos/upload',
+        'url': 'https://www.pornhub.com/pornstar/kali-roses/videos/upload',
         'info_dict': {
-            'id': 'jenny-blighe',
+            'id': 'kali-roses',
         },
         'playlist_mincount': 129,
     }, {
         'url': 'https://www.pornhub.com/model/zoe_ph/videos/upload',
         'only_matching': True,
     }, {
-        'url': 'http://pornhubvybmsymdol4iibwgwtkpwmeyd6luq2gxajgjzfjvotyt5zhyd.onion/pornstar/jenny-blighe/videos/upload',
+        'url': 'http://pornhubvybmsymdol4iibwgwtkpwmeyd6luq2gxajgjzfjvotyt5zhyd.onion/pornstar/kali-roses/videos/upload',
         'only_matching': True,
     }]
 
